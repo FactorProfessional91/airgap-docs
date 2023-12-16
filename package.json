@@ -23,7 +23,7 @@
     "embed-code": "npm run generate-monaco-types && npm run pretty-source && node scripts/copy-examples.js && npm run clear-folders && cp -r src/docs/* build-docs/ && embedme 'build-docs/**/*.mdx' --source-root ./build-examples && rm -r docs && mv build-docs docs && npm run pretty-docs"
   },
   "dependencies": {
-    "@airgap/coinlib-core": "0.12.6",
+    "@airgap/coinlib-core": "0.13.21",
     "@docusaurus/core": "2.0.0-beta.15",
     "@docusaurus/plugin-sitemap": "2.0.0-beta.15",
     "@docusaurus/preset-classic": "2.0.0-beta.15",
